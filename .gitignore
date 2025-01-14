@@ -37,7 +37,15 @@ __pycache__/
 *.pyo
 *.pyd
 .Python
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+# BDB-CLASSIFIER
 
 # Dataset
 bdb_dataset_raw/
 bdb_dataset/
+
+cheats.txt
