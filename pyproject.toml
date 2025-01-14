@@ -1,0 +1,15 @@
+[project]
+name = "bdb_classifier"
+description = "Classify bdb"
+dynamic = ["version", "dependencies"]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version.attr = "bdb_classifier.__version__"
+dependencies.file = "requirements.txt"
+
+[tool.setuptools.packages.find]
+where = ["src"]
