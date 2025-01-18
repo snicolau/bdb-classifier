@@ -51,7 +51,7 @@ Advantages of Using DistilHuBERT:
 <table>
   <tr>
     <td align="center">
-        <img src="/home/snicolau/bdb-classifier/resources/classifier_distilhubert/conf_matrix.png" alt="eval_accuracy" width="350"/><br>
+        <img src="resources/classifier_distilhubert/conf_matrix.png" alt="eval_accuracy" width="350"/><br>
         <b>Image 3:</b> Second image description.
     </td>
   </tr>
